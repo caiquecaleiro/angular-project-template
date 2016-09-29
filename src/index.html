@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular project</title>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  
+  <body>
+    <div ng-view class="container"></div>
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- Angular -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <!-- Angular-Route -->
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+
+    <!-- app module -->
+    <script src="app/app.module.js"></script>
+    <!-- mainPanel module -->
+    <script src="app/mainPanel/mainPanel.module.js"></script>
+    <script src="app/mainPanel/mainPanel.controller.js"></script>
+    <script src="app/mainPanel/config.route.js"></script>
+  </body>
+</html>

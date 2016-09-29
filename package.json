@@ -1,0 +1,32 @@
+{
+  "name": "angular-project-template",
+  "version": "1.0.0",
+  "description": "AngularJS Project Template for students",
+  "main": "app.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiquecaleiro/angular-project-template.git"
+  },
+  "author": "Caique Caleiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiquecaleiro/angular-project-template/issues"
+  },
+  "homepage": "https://github.com/caiquecaleiro/angular-project-template#readme",
+  "keywords": [],
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "run-sequence": "^1.2.2"
+  }
+}
